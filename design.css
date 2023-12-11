@@ -7,6 +7,7 @@
 body {
 	font-family: montserrat;
 }
+
 nav {
 	height: 80px;
 	width: 100%;
@@ -104,6 +105,63 @@ nav #icon {
 		left: 0;
 	}
 }
+
+.img-sec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
+}
+
+.img-box {
+  width: 100vw;
+  max-height: 500px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin: 60px 0;
+  background-image: url('https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/277001572_716870993003921_4343011556909052812_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHc5fyyTbhgoTtLaYBIMyd-gztraXPEacGDO2tpc8RpwU_K-RNx0daUO0uB80OTuaVXVHKFX_hZuiN5YWPpoLZI&_nc_ohc=J0TgHsBVUHUAX_KbCDN&_nc_ht=scontent-mnl1-2.xx&oh=00_AfD6_8jUaHDEt3cf8Lr6XQc-bb4tIZ8IEo_Tka-MnItSBA&oe=657B7D95');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -300px;
+}
+
+.text-butt {
+	text-align: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text-butt h2 {
+	margin-bottom: 10px;
+}
+
+.text-butt p {
+	font-size: 22px;
+}
+
+.text-butt button {
+	padding: 10px 20px;
+	font-size: 16px;
+	margin-top: 10px;
+	width: 120px;
+}
+.img-box::before {
+  content: "";
+  display: block;
+  padding-bottom: 66.67%;
+}
+
+.img-box .text-butt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 .testimonials-section {
   background: var(--primary-color);
   color: white;
@@ -136,4 +194,10 @@ nav #icon {
     background-color: #FF5607;
     color: #f2f2f2;
     cursor: pointer;
+    width: 70px;
+    height: 36px;
+  }
+  button:hover {
+  	background-color: fb8008;
+  	color: white;
   }
