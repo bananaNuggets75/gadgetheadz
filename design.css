@@ -11,7 +11,7 @@ body {
 nav {
 	height: 80px;
 	width: 100%;
-	background: #34495e;
+	background: #ff0800;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -24,8 +24,8 @@ label.logo {
 	line-height: 50px;
 }
 label.logo img {
-    height: 120px; 
-    width: auto;  
+    height: 95px; 
+    width: 200px;  
     margin-top: 15px;
 }
 
@@ -41,7 +41,7 @@ nav li {
 }
 nav a {
 	color: white;
-	font-size: 18px;
+	font-size: 16px;
 	text-transform: uppercase;
 	border: 1px solid transparent;
 	padding: 7px 10px;
@@ -70,7 +70,7 @@ nav #icon {
 
 	}
 	nav a {
-		font-size: 17px;
+		font-size: 15px;
 	}
 }
 @media (max-width: 909px) {
@@ -86,7 +86,7 @@ nav #icon {
 		top: 80px;
 		left: -100%;
 		text-align: center;
-		transition: all .5s;
+		transition: left .5s;
 	}
 	nav li {
 		display: block;
@@ -123,7 +123,7 @@ nav #icon {
   background-image: url('https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/277001572_716870993003921_4343011556909052812_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHc5fyyTbhgoTtLaYBIMyd-gztraXPEacGDO2tpc8RpwU_K-RNx0daUO0uB80OTuaVXVHKFX_hZuiN5YWPpoLZI&_nc_ohc=J0TgHsBVUHUAX_KbCDN&_nc_ht=scontent-mnl1-2.xx&oh=00_AfD6_8jUaHDEt3cf8Lr6XQc-bb4tIZ8IEo_Tka-MnItSBA&oe=657B7D95');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center -300px;
+  background-position: center -250px;
 }
 
 .text-butt {
@@ -168,10 +168,10 @@ nav #icon {
   margin-top: 80px;
 }
 .testimonials-section li {
-  background: #ff8000;
+  background: #ff0800;
   text-align: center;
   padding: 2em, 1em;
-  width: 80%;
+  width: auto;
   margin: 0 auto 5em auto;
   border-radius: 1em;
 }
@@ -191,7 +191,7 @@ nav #icon {
   button {
     border-radius: 12px;
     border: #ffc100;
-    background-color: #FF5607;
+    background-color: #3b719f;
     color: #f2f2f2;
     cursor: pointer;
     width: 70px;
@@ -201,3 +201,112 @@ nav #icon {
   	background-color: fb8008;
   	color: white;
   }
+
+ .contact-section {
+  position: relative;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.contact-left {
+  flex: 1;
+  max-width: 50%;
+}
+
+.contact-left form {
+  width: 100%;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  margin-bottom: 5em;
+  border-radius: 5em;
+  display: inline-block;
+  padding: 0.8em 2em;
+  width: unset;
+  cursor: pointer;
+}
+
+.map-section {
+  flex: 1;
+  border: 2px solid #ccc;
+  padding: 10px;
+  right: 0;
+  top: 0;
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+
+
+.map-section iframe {
+  height: 100%;
+  width: 100%;
+}
+.contact-left form .send-message-cta {
+  background-color: #007AF3; 
+  color: #f2f2f2;
+}
+
+
+@media only screen and (min-width: 909px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+}
+
+section.product-section {
+  background-color: #f8f8f8; /* Optional: Add a background color for better visibility */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around; /* Distribute products evenly within the container */
+}
+
+.product {
+  text-align: center;
+  margin: 20px; /* Adjust margin as needed to add spacing between products */
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+.text p {
+  font-size: 18px; /* Adjust font size as needed */
+  color: #333; /* Adjust text color as needed */
+}
