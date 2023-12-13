@@ -135,7 +135,8 @@ nav #icon {
 }
 
 .text-butt h2 {
-	margin-bottom: 10px;
+	margin-top: 83px;
+  margin-bottom: 10px;
 }
 
 .text-butt p {
@@ -166,13 +167,19 @@ nav #icon {
   background: var(--primary-color);
   color: white;
   margin-top: 80px;
+  margin-bottom: 40px;
+  width: 60%;
+  margin-left: 170px;
+  margin-right: auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
 .testimonials-section li {
   background: #ff0800;
   text-align: center;
   padding: 2em, 1em;
   width: auto;
-  margin: 0 auto 5em auto;
+  margin: 0 20px 20px 0;
   border-radius: 1em;
 }
 .testimonials-section li img {
@@ -184,6 +191,9 @@ nav #icon {
 }
 .testimonials-section ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
   .testimonials-section ul li {
     margin: 0 1em;
@@ -286,27 +296,43 @@ input[type=submit] {
   }
 }
 
-section.product-section {
-  background-color: #f8f8f8; /* Optional: Add a background color for better visibility */
-  padding: 20px; /* Adjust padding as needed */
-}
-
 .container1 {
   display: flex;
-  justify-content: space-around; /* Distribute products evenly within the container */
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 10px;
+     /* Adjust the gap value to your preference */
 }
 
 .product {
   text-align: center;
-  margin: 20px; /* Adjust margin as needed to add spacing between products */
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ff0800;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
-  max-width: 50%;
+  max-width: 65%;
+  max-height: 200px; /* Set a maximum height for the images */
   height: auto;
 }
 
-.text p {
-  font-size: 18px; /* Adjust font size as needed */
-  color: #333; /* Adjust text color as needed */
+.text {
+  flex-grow: 1;
 }
+
+.text p {
+  font-size: 18px;
+  color: #333;
+  flex-grow: 1;
+}
+
+
