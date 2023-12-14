@@ -6,12 +6,13 @@
 }
 body {
 	font-family: montserrat;
+  background-image: url('https://t4.ftcdn.net/jpg/05/16/94/57/360_F_516945717_ceYjVQvFOcTDZb5PzNBcBOa03CgqeWqx.jpg');
 }
 
 nav {
 	height: 80px;
 	width: 100%;
-	background: #ff0800;
+	background: #f2f2f2;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -40,7 +41,7 @@ nav li {
 	line-height: 80px;
 }
 nav a {
-	color: white;
+	color: #fb0800;
 	font-size: 16px;
 	text-transform: uppercase;
 	border: 1px solid transparent;
@@ -123,7 +124,7 @@ nav #icon {
   background-image: url('https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/277001572_716870993003921_4343011556909052812_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHc5fyyTbhgoTtLaYBIMyd-gztraXPEacGDO2tpc8RpwU_K-RNx0daUO0uB80OTuaVXVHKFX_hZuiN5YWPpoLZI&_nc_ohc=J0TgHsBVUHUAX_KbCDN&_nc_ht=scontent-mnl1-2.xx&oh=00_AfD6_8jUaHDEt3cf8Lr6XQc-bb4tIZ8IEo_Tka-MnItSBA&oe=657B7D95');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center -250px;
+  background-position: center -350px;
 }
 
 .text-butt {
@@ -169,25 +170,28 @@ nav #icon {
   margin-top: 80px;
   margin-bottom: 40px;
   width: 60%;
-  margin-left: 170px;
+  margin-left: 152px;
   margin-right: auto;
   padding: 20px;
   box-sizing: border-box;
 }
 .testimonials-section li {
-  background: #ff0800;
+  background: #b4b4b4;
   text-align: center;
   padding: 2em, 1em;
-  width: auto;
+  width: 400px;
+  min-height: 300px;
   margin: 0 20px 20px 0;
   border-radius: 1em;
+  
 }
 .testimonials-section li img {
   width: 15em;
   height: 15em;
-  border: 5px solid #006BD6;
+  border: 5px solid #808080;
   border-radius: 50%;
   margin-top: -4.5em;
+  margin-right: 500px;
 }
 .testimonials-section ul {
     display: flex;
@@ -198,13 +202,15 @@ nav #icon {
   .testimonials-section ul li {
     margin: 0 1em;
   }
+  
   button {
     border-radius: 12px;
     border: #ffc100;
-    background-color: #3b719f;
-    color: #f2f2f2;
+    background-color: #808080;
+    color: #000000;
+    font-size: 16px;
     cursor: pointer;
-    width: 70px;
+    width: 90px;
     height: 36px;
   }
   button:hover {
@@ -301,7 +307,6 @@ input[type=submit] {
   justify-content: space-around;
   align-items: stretch;
   gap: 10px;
-     /* Adjust the gap value to your preference */
 }
 
 .product {
@@ -313,26 +318,31 @@ input[type=submit] {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 10px;
-  background-color: #ff0800;
+  background-color: #bebebe;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
 
 img {
-  max-width: 65%;
-  max-height: 200px; /* Set a maximum height for the images */
+  max-width: 75%;
+  margin-left: 73px;
+  max-height: 200px; 
   height: auto;
+
+
 }
 
 .text {
   flex-grow: 1;
 }
 
-.text p {
-  font-size: 18px;
-  color: #333;
+.text h2 {
   flex-grow: 1;
+}
+
+.text li {
+  color: #000000;
 }
 
 
