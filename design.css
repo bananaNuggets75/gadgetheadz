@@ -290,7 +290,7 @@ input[type=submit] {
   width: 100%;
 }
 .contact-left form .send-message-cta {
-  background-color: #007AF3; 
+  background-color: #fb0800; 
   color: #f2f2f2;
 }
 
@@ -324,6 +324,15 @@ input[type=submit] {
   flex-direction: column;
 }
 
+.product ul {
+    list-style: none; /* Removes default list styles */
+    padding: 0; /* Removes any default padding */
+}
+
+.product li {
+    margin-bottom: 5px; /* Adds margin at the bottom of each list item */
+}
+
 img {
   max-width: 75%;
   margin-left: 73px;
@@ -343,6 +352,22 @@ img {
 
 .text li {
   color: #000000;
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+footer li{
+  text-align: center;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+footer h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
 }
 
 
