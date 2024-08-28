@@ -1,0 +1,18 @@
+img {
+    border-radius: 50%;
+}
+
+body {
+    background-color: bisque;
+}
+
+footer {
+    position: relative;
+    background-image: url("https://wallpapers.com/images/featured/anime-landscape-background-12xkkc2cnstc3gp2.jpg");
+}
+
+.educ, th, td {
+    border: 1px solid black;
+}
+
+
