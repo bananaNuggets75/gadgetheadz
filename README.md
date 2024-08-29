@@ -1,14 +1,19 @@
-## Compiled web based school works
+## Compiled Web-Based School Works
 
-This Repository is composed of uni school activities which is uploaded soley for sharing.
+This repository is composed of university school activities, uploaded solely for sharing.
 
-Simple Website for one of my University's Subject (Final Project) 
-- This project is a basic website developed using HTML, CSS, and a little bit of JavaScript.
+### Project 1: Simple Website
 
+- A basic website developed using HTML, CSS, and a bit of JavaScript.
+- Created as a final project for one of my university subjects.
 
-Future Plans:
+### Project 2: Resume
+
+- A resume built using Bootstrap.
+- Showcases a modern and responsive design with easy customization options.
+
+### Future Plans:
+
 - Implement a database to store and manage data efficiently.
-- Add more interactive features and content to enhance user engagement
-
-Bootstrap
-
+- Add more interactive features and content to enhance user engagement.
+- Expand the resume project with additional templates and components.
